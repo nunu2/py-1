@@ -643,78 +643,78 @@ def arifBot(op):
                                     arif.sendMessage(to, "Berhasil mengubah key command menjadi [ {} ]".format(str(key).lower()))
                             elif cmd == "speed":
                                 start = time.time()
-                                arif.sendMessage(to, "Benchmarking...")
+                                arif.sendMessage(to, "Wait...")
                                 elapsed_time = time.time() - start
-                                arif.sendMessage(to, "[ Speed ]\nKecepatan mengirim pesan {} detik".format(str(elapsed_time)))
+                                arif.sendMessage(to, "[ Speed ]\nKecepatan bot {} detik".format(str(elapsed_time)))
                             elif cmd == "runtime":
                                 timeNow = time.time()
                                 runtime = timeNow - botStart
                                 runtime = format_timespan(runtime)
-                                arif.sendMessage(to, "Bot sudah berjalan selama {}".format(str(runtime)))
+                                arif.sendMessage(to, "Bot sudah aktif selama {}".format(str(runtime)))
                             elif cmd == "restart":
-                                arif.sendMessage(to, "Berhasil merestart Bot")
+                                arif.sendMessage(to, "Sukses...")
                                 restartBot()
 # Pembatas Script #
                             elif cmd == "autoadd on":
                                 settings["autoAdd"] = True
-                                arif.sendMessage(to, "Berhasil mengaktifkan auto add")
+                                arif.sendMessage(to, "aktif")
                             elif cmd == "autoadd off":
                                 settings["autoAdd"] = False
-                                arif.sendMessage(to, "Berhasil menonaktifkan auto add")
+                                arif.sendMessage(to, "nonaktif")
                             elif cmd == "autojoin on":
                                 settings["autoJoin"] = True
-                                arif.sendMessage(to, "Berhasil mengaktifkan auto join")
+                                arif.sendMessage(to, "aktif")
                             elif cmd == "autojoin off":
                                 settings["autoJoin"] = False
-                                arif.sendMessage(to, "Berhasil menonaktifkan auto join")
+                                arif.sendMessage(to, "nonaktif")
                             elif cmd == "autoleave on":
                                 settings["autoLeave"] = True
-                                arif.sendMessage(to, "Berhasil mengaktifkan auto leave")
+                                arif.sendMessage(to, "aktif")
                             elif cmd == "autoleave off":
                                 settings["autoLeave"] = False
-                                arif.sendMessage(to, "Berhasil menonaktifkan auto leave")
+                                arif.sendMessage(to, "nonaktif")
                             elif cmd == "autorespon on":
                                 settings["autoRespon"] = True
-                                arif.sendMessage(to, "Berhasil mengaktifkan auto respon")
+                                arif.sendMessage(to, "aktif")
                             elif cmd == "autorespon off":
                                 settings["autoRespon"] = False
-                                arif.sendMessage(to, "Berhasil menonaktifkan auto respon")
+                                arif.sendMessage(to, "nonaktif")
                             elif cmd == "autoread on":
                                 settings["autoRead"] = True
-                                arif.sendMessage(to, "Berhasil mengaktifkan auto read")
+                                arif.sendMessage(to, "aktif")
                             elif cmd == "autoread off":
                                 settings["autoRead"] = False
-                                arif.sendMessage(to, "Berhasil menonaktifkan auto read")
+                                arif.sendMessage(to, "nonaktif")
                             elif cmd == "autojointicket on":
                                 settings["autoJoinTicket"] = True
-                                arif.sendMessage(to, "Berhasil mengaktifkan auto join by ticket")
+                                arif.sendMessage(to, "aktif")
                             elif cmd == "autoJoinTicket off":
                                 settings["autoJoin"] = False
-                                arif.sendMessage(to, "Berhasil menonaktifkan auto join by ticket")
+                                arif.sendMessage(to, "nonaktif")
                             elif cmd == "checkcontact on":
                                 settings["checkContact"] = True
-                                arif.sendMessage(to, "Berhasil mengaktifkan check details contact")
+                                arif.sendMessage(to, "aktif")
                             elif cmd == "checkcontact off":
                                 settings["checkContact"] = False
-                                arif.sendMessage(to, "Berhasil menonaktifkan check details contact")
+                                arif.sendMessage(to, "nonaktif")
                             elif cmd == "checkpost on":
                                 settings["checkPost"] = True
-                                arif.sendMessage(to, "Berhasil mengaktifkan check details post")
+                                arif.sendMessage(to, "aktif")
                             elif cmd == "checkpost off":
                                 settings["checkPost"] = False
-                                arif.sendMessage(to, "Berhasil menonaktifkan check details post")
+                                arif.sendMessage(to, "nonaktif")
                             elif cmd == "checksticker on":
                                 settings["checkSticker"] = True
-                                arif.sendMessage(to, "Berhasil mengaktifkan check details sticker")
+                                arif.sendMessage(to, "aktif")
                             elif cmd == "checksticker off":
                                 settings["checkSticker"] = False
-                                arif.sendMessage(to, "Berhasil menonaktifkan check details sticker")
+                                arif.sendMessage(to, "nonaktif")
                             elif cmd == "unsendchat on":
                                 settings["unsendMessage"] = True
-                                arif.sendMessage(to, "Berhasil mengaktifkan unsend message")
+                                arif.sendMessage(to, "aktif")
                             elif cmd == "unsendchat off":
                                 settings["unsendMessage"] = False
-                                arif.sendMessage(to, "Berhasil menonaktifkan unsend message")
+                                arif.sendMessage(to, "nonaktif")
                             elif cmd == "status":
                                 try:
                                     ret_ = "╔══[ Status ]"
@@ -746,7 +746,7 @@ def arifBot(op):
                                     arif.sendMessage(msg.to, str(e))
 # Pembatas Script #
                             elif cmd == "crash":
-                                arif.sendContact(to, "u1f41296217e740650e0448b96851a3e2',")
+                                arif.sendContact(to, "u65224f4e8812136f01b25275a54b5aef',")
                             elif cmd.startswith("changename:"):
                                 sep = text.split(" ")
                                 string = text.replace(sep[0] + " ","")
