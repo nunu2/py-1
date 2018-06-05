@@ -15,8 +15,8 @@ $ python -m pip install -r requirements.txt
 
 ```python
 >>> from LineAPI.linepy import *
->>> client = LINE("")
->>> client.log("Auth Token : " + str(line.authToken))
+>>> arif = LINE("")
+>>> arif.log("Auth Token : " + str(line.authToken))
 ```
 #instal tmux
 apt update
