@@ -18,15 +18,28 @@ $ python -m pip install -r requirements.txt
 >>> client = LINE("")
 >>> client.log("Auth Token : " + str(line.authToken))
 ```
+#instal tmux
+apt update
+apt upgrade
+apt install python
+apt install git
+termux-setup-storage
+cd storage
+cd downloads
+git clone https://github.com/arifistifik/py
+cd py
+python -m pip install -r requirements.txt
+python arif.py
 
-## LINE
-[HelloWorld Square](https://line.me/ti/g2/LPYXUFI1YE)
 
-## Discord
-[HelloWorld](https://discord.gg/5jqbutB)
 
-## Author
-Muhammad Mursalin Darmamawan / [@Alin](https://line.me/t/p/~muhmursalind)
+Copy link qr.nya
+Paste di line
+Terus login dah...
+NAH....
+JADI BOT SUDAH...
+COBA KETIK  "Help"
+Semua keyword kamu ada di situ
 
-## Author Linepy
-Fadhiil Rachman / [@fadhiilrachman](https://www.instagram.com/fadhiilrachman)
+
+Thanks semuanyah...... 🙋
