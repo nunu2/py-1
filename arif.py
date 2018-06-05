@@ -391,7 +391,7 @@ def helpmessage():
                     "╠ " + key + "SearchMusic 「Search」" + "\n" + \
                     "╠ " + key + "SearchLyric 「Search」" + "\n" + \
                     "╠ " + key + "SearchImage 「Search」" + "\n" + \
-                    "╚══[ Copyright @Zero-Cool404 ]"
+                    "╚══[ Credit by: @arifistifik ]"
     return helpMessage
 
 def helptexttospeech():
@@ -453,8 +453,8 @@ def helptexttospeech():
                         "╠ " + key + "uk : Ukrainian" + "\n" + \
                         "╠ " + key + "vi : Vietnamese" + "\n" + \
                         "╠ " + key + "cy : Welsh" + "\n" + \
-                        "╚══[ Copyright @Zero-Cool404 ]" + "\n" + "\n\n" + \
-                        "Contoh : " + key + "say-id Zero"
+                        "╚══[ ID SMULE @ARIF_MH ]" + "\n" + "\n\n" + \
+                        "Contoh : " + key + "say-id Arif keren"
     return helpTextToSpeech
 
 def helptranslate():
@@ -569,8 +569,8 @@ def helptranslate():
                     "╠ " + key + "zu : zulu" + "\n" + \
                     "╠ " + key + "fil : Filipino" + "\n" + \
                     "╠ " + key + "he : Hebrew" + "\n" + \
-                    "╚══[ Copyright @Zero-Cool404 ]" + "\n" + "\n\n" + \
-                    "Contoh : " + key + "tr-id Zero"
+                    "╚══[id line : @arifistifik ]" + "\n" + "\n\n" + \
+                    "Contoh : " + key + "tr-id Arif"
     return helpTranslate
 
 def arifBot(op):
